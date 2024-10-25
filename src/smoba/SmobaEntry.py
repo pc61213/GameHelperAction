@@ -179,4 +179,4 @@ def entry():
             send_content += ">环境变量未配置\n"
         send_content += "#####################################\n"
         print(send_content)
-        ServerChan.send("Action-王者营地", send_content)
+        ServerChan.send("Action-王者营地-X", send_content)
